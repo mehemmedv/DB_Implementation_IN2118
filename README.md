@@ -4,13 +4,15 @@ Database Systems on Modern CPU Architectures
 
 Description
 -----------
-DBLite is going to be a simple Database System that runs on Modern CPU Architectures.
+This is a tiny database systems built from scratch which can do simple select and insert queries.
+This is a continuation of the project that I implemented along with Toghrul during the course (https://github.com/togrulseyid/DBLite.git)
+In the project during the course, we have implemented Iterator Model for Operators. Here I will continue the project with 'push-up' model implementation and at the end we can simply run queries.
 
 
 ## Development
 ### Setup repository
 ```
-git clone git@github.com:togrulseyid/DBLite.git
+git clone https://github.com/mehemmedv/DB_Implementation_IN2118.git
 ```
 
 ### Compiling
@@ -41,8 +43,8 @@ Released under the GNU General Public License v3.0 or later.
 See [LICENSE](LICENSE) for further info.
 
     DBLite
-    Copyright (C) 2017 DBLite Team: 
-        toghrul.seyidov@tum.de && mahammad.valiyev@tum.de
+    Copyright (C) 2017 Team: 
+        mahammad.valiyev@tum.de
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
