@@ -22,13 +22,13 @@ mkdir build && cd build && cmake .. && make
 
 Artifacts
 ---------
-* DBLite - the main service
-* DBLite_Esort -  External sort
-* DBLite_Buffer - Buffer Manager
-* DBLite_SPSegment - Slotted Page
-* DBLite_SCHEMA - Schema(args: test.sql file)
-* DBLite_BTREE - B Tree implementation
-* DBLite_Operators - Operators
+* DB - the main service
+* DB_Esort -  External sort
+* DB_Buffer - Buffer Manager
+* DB_SPSegment - Slotted Page
+* DB_SCHEMA - Schema(args: test.sql file)
+* DB_BTREE - B Tree implementation
+* DB_Operators - Operators
 * Subscript - cd src/subscript_llvm && make && ./subscript 1 2 5 2
 * Parallel Hash Join - cd test && make && ./hashjoin 3000 3000 4
 

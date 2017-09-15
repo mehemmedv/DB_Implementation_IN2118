@@ -100,23 +100,23 @@ set(PAR_HASH_JOIN_FILES
 
 
 # Executable
-add_executable(DBLite_Esort ${ESORT_FILES})
-add_executable(DBLite_Buffer ${BUFFER_FILES})
-add_executable(DBLite_SPSegment ${SLOTTED_PAGE_FILES})
-add_executable(DBLite_SCHEMA ${SCHEMA_FILES})
-add_executable(DBLite_BTREE ${BTREE_FILES})
-add_executable(DBLite_Operators ${OPERATORS_FILES})
-add_executable(DBLite_Parallel_Hash_Join ${PAR_HASH_JOIN_FILES})
+add_executable(DB_Esort ${ESORT_FILES})
+add_executable(DB_Buffer ${BUFFER_FILES})
+add_executable(DB_SPSegment ${SLOTTED_PAGE_FILES})
+add_executable(DB_SCHEMA ${SCHEMA_FILES})
+add_executable(DB_BTREE ${BTREE_FILES})
+add_executable(DB_Operators ${OPERATORS_FILES})
+add_executable(DB_Parallel_Hash_Join ${PAR_HASH_JOIN_FILES})
 
 
 
-target_include_directories(DBLite_Esort PUBLIC include/)
-target_include_directories(DBLite_Buffer PUBLIC include/)
-target_include_directories(DBLite_SPSegment PUBLIC include/)
-target_include_directories(DBLite_SCHEMA PUBLIC include/)
-target_include_directories(DBLite_BTREE PUBLIC include/)
-target_include_directories(DBLite_Operators PUBLIC include/)
-target_include_directories(DBLite_Parallel_Hash_Join PUBLIC include/)
+target_include_directories(DB_Esort PUBLIC include/)
+target_include_directories(DB_Buffer PUBLIC include/)
+target_include_directories(DB_SPSegment PUBLIC include/)
+target_include_directories(DB_SCHEMA PUBLIC include/)
+target_include_directories(DB_BTREE PUBLIC include/)
+target_include_directories(DB_Operators PUBLIC include/)
+target_include_directories(DB_Parallel_Hash_Join PUBLIC include/)
 
 
 
@@ -126,13 +126,13 @@ target_include_directories(DBLite_Parallel_Hash_Join PUBLIC include/)
 #        )
 
 # doxygen build
-set(DOXYGEN_TARGETS DBLite_Esort)
-set(DOXYGEN_TARGETS DBLite_Buffer)
-set(DOXYGEN_TARGETS DBLite_SPSegment)
-set(DOXYGEN_TARGETS DBLite_SCHEMA)
-set(DOXYGEN_TARGETS DBLite_BTREE)
-set(DOXYGEN_TARGETS DBLite_Operators)
-set(DOXYGEN_TARGETS DBLite_Parallel_Hash_Join)
+set(DOXYGEN_TARGETS DB_Esort)
+set(DOXYGEN_TARGETS DB_Buffer)
+set(DOXYGEN_TARGETS DB_SPSegment)
+set(DOXYGEN_TARGETS DB_SCHEMA)
+set(DOXYGEN_TARGETS DB_BTREE)
+set(DOXYGEN_TARGETS DB_Operators)
+set(DOXYGEN_TARGETS DB_Parallel_Hash_Join)
 
 
 
