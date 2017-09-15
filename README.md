@@ -1,4 +1,4 @@
-# DBLite
+# DB
 Database Systems on Modern CPU Architectures
 
 
@@ -42,7 +42,7 @@ License
 Released under the GNU General Public License v3.0 or later.
 See [LICENSE](LICENSE) for further info.
 
-    DBLite
+    DB
     Copyright (C) 2017 Team: 
         mahammad.valiyev@tum.de
 
