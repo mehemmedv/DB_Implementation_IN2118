@@ -6,7 +6,7 @@ Description
 -----------
 This is a tiny database systems built from scratch which can do simple select and insert queries.
 This is a continuation of the project that I implemented along with Toghrul during the course (https://github.com/togrulseyid/DBLite.git)
-In the project during the course, we have implemented Iterator Model for Operators. Here I will continue the project with 'push-up' model implementation and at the end we can simply run queries.
+In the project during the course, we have implemented Iterator Model for Operators. Here I will continue the project with 'push-up' model implementation and at the end we can simply run queries(status: not done yet).
 
 
 ## Development
